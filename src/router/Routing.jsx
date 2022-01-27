@@ -6,12 +6,14 @@ import {
 } from "react-router-dom";
 import Home from '../components/Home';
 import Login from '../components/Login';
+import Navigation from "../components/Navigation";
 import Profile from '../components/Profile';
 import Translate from '../components/Translate';
 
 export default function Routing() {
     return (
         <BrowserRouter>
+            <Navigation />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Login" element={<Login />} />
