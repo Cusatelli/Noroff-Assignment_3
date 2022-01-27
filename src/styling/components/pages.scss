@@ -1,0 +1,26 @@
+
+.page {
+    .header {
+        img {
+            position: absolute;
+
+            &.background {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                z-index: 1;
+            }
+
+            &.foreground {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotateZ(-5.75deg);
+                width: max(30rem, 50%);
+                z-index: 2;
+            }
+        }
+    }
+}

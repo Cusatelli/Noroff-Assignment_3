@@ -1,0 +1,35 @@
+
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    width: fit-content;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #FFF;
+
+    z-index: 999;
+
+    ul {
+        display: flex;
+        padding-block: 0.5rem 1rem;
+        padding-inline: 0.5rem;
+
+        li {
+            padding-block: 1rem;
+            text-align: center;
+
+            a {
+                padding-inline: 2rem;
+                padding-block: 1rem;
+                text-transform: uppercase;
+                font-weight: bolder;
+
+                &.active {
+                    color: #FFF;
+                    border-radius: 1rem;
+                    background-color: #6ba6ff;
+                }
+            }
+        }
+    }
+}
