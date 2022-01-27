@@ -1,0 +1,22 @@
+
+button {
+    border: none;
+    background-color: rgb(200, 200, 200);
+    color: rgb(30, 30, 30);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.15rem;
+    box-shadow: inset -1px -1px 1px rgba($color: #000, $alpha: 0.5),
+                inset 1px 1px 1px rgba($color: #FFF, $alpha: 0.5);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: inset -2px -2px 1px rgba($color: #000, $alpha: 0.5),
+                    inset 2px 2px 1px rgba($color: #FFF, $alpha: 0.5);
+    }
+
+    &:active {
+        box-shadow: inset -2px -2px 1px rgba($color: #FFF, $alpha: 0.5),
+                    inset 2px 2px 1px rgba($color: #000, $alpha: 0.5);
+    }
+}
