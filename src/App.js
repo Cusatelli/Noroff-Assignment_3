@@ -1,13 +1,11 @@
-import { Component } from 'react';
+import Routing from './router/Routing';
 
-class App extends Component {
-	render() {
-		return (
-			<div className='app'>
-				<h1>App...</h1>
-			</div>
-		);
-	}
+function App() {
+	return (
+		<div className='app'>
+			<Routing />
+		</div>
+	);
 }
 
 export default App;
