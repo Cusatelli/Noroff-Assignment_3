@@ -3,7 +3,11 @@ import React from "react";
 export default function Login() {
     return (
         <div className="page login">
-            <h1>Login Page</h1>
+            <form action="" method="post">
+                <label htmlFor="">Username</label>
+                <input type="text" placeholder="John Doe..." />
+                <button type="submit">Login</button>
+            </form>
         </div>
     );
 }

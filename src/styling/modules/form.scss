@@ -1,0 +1,28 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 1rem;
+    margin-inline: auto;
+    background-color: rgb(37, 37, 37);
+
+    label {
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-block: 0 1rem;
+    }
+    
+    input {
+        padding: 0.5rem;
+        font-weight: bolder;
+        border: none;
+        border-radius: 0.2rem;
+    }
+    
+    button {
+        margin-block: 1rem 0;
+        border-radius: 0.2rem;
+    }
+}
